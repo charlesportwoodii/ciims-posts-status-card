@@ -1,0 +1,17 @@
+{
+	"name" : {
+		"displayName" : "Status Card",
+		"name" : "Status"
+	},
+	"description" : "A simple status card to show posts by status group",
+	"keywords" : [ "status" ],
+	"author" : {
+		"name" : "Charles R. Portwood II",
+		"email" : "charlesportwoodii@ethreal.net"
+	},
+	"category" : "General",
+	"license" : "MIT",
+	"version" : "1",
+	"sizes" : [ "normal" ],
+	"activeSize" : "normal"
+}
