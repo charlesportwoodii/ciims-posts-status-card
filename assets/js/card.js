@@ -12,7 +12,13 @@ var dASaghwDa = {
 	 	self = this;
 
 	 	$.get(CiiDashboard.endPoint + "/card/callmethod/id/" + this.id + "/method/getPosts", function(data) {
-	 		console.log("load");
+	 		console.log(data.data);
+	 		Morris.Donut({
+			  element: self.id + "-chart",
+			  colors: data.colors,
+			  data: data.data
+			});
+
 	 	});
 	 }
 }
