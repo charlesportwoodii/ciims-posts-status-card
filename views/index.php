@@ -4,7 +4,7 @@
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl.$asset; ?>/js/raphael.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl.$asset; ?>/morris.js/morris.min.js"></script>
 
-<div id="dASaghwDa" data-attr-id="<?php echo $model->id; ?>">
+<div id="<?php echo $model->scriptName; ?>" data-attr-id="<?php echo $model->id; ?>">
 	<div class="card-header">
 		<span class="title">Posts By Status</span>
 		<div class="clearfix"></div>
