@@ -9,9 +9,10 @@
 		"name" : "Charles R. Portwood II",
 		"email" : "charlesportwoodii@ethreal.net"
 	},
+	"repository" : "https://www.github.com/charlesportwoodii/ciims-posts-status-card",
 	"category" : "General",
 	"license" : "MIT",
-	"version" : "1.1",
+	"version" : "1.2",
 	"sizes" : [ "normal" ],
 	"activeSize" : "normal"
 }
